@@ -1,0 +1,30 @@
+:root{
+    --eloter: crimson;
+    --hatter: #eeeeff;
+}
+
+body{
+    color: var(--eloter);
+    background: var(--hatter);
+}
+
+#header{
+    color: var(--hatter);
+    background: var(--eloter);
+    height: 30px;
+}
+#body{
+    margin: 15px 0 25px 0; 
+}
+
+#urlapOszlop{
+    border: 1px solid #223355;
+    border-radius: 7px;
+    background: white;
+    color: navy;
+}
+
+form{
+    margin: 10px;
+    padding: 5px;
+}
